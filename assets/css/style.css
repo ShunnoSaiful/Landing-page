@@ -1,0 +1,93 @@
+body {
+	font-family: "ubuntu", sans-serif;
+	line-height: 1.6;
+	font-size: 100%;
+}
+button:focus {
+	border: 0;
+	outline: none;
+	box-shadow: none !important;
+}
+.body_bg_img {
+	background-image: url("../img/wave.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom;
+	background-attachment: fixed;
+	background-color: #fff;
+}
+
+.header_bg {
+	background-color: #ffffff;
+}
+.step_class {
+	width: 45px;
+	height: 10px;
+	display: inline-block;
+	background-color: #f0f2f5;
+	border-radius: 30px;
+}
+.step_class.active {
+	background-color: #f759ab;
+}
+.dropdown-menu-right {
+	right: 0;
+	left: auto;
+}
+.lang__btn {
+	background-color: transparent;
+}
+.lang__btn:hover {
+	background-color: #f759ab;
+	color: #ffffff;
+}
+
+.single__button {
+	color: #ffffff;
+	border-radius: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 20px;
+	min-width: 300px;
+	text-align: center;
+	border: 1px solid #ffffff;
+	background-color: #f759ab;
+	position: relative;
+	overflow: hidden;
+	transition: all 0.3s ease-in;
+	transform: scale(0.9);
+}
+.main_section_contents h1{
+	font-size: 24px;
+}
+.single__button:hover {
+	transition: all 0.3s ease-out;
+	transform: scale(1);
+}
+.navigation_buttons {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	transform: translate(-50%, -50%);
+}
+.single__navigation:focus {
+	outline: none;
+}
+.single__navigation {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 16px;
+	text-align: center;
+	background-color: #f759ab;
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+	display: inline-block;
+}
+.single__navigation i {
+	color: #fff;
+	transition: 0.3s ease-in;
+}
+.single__navigation:hover i {
+	color: #000;
+}
