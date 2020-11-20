@@ -85,9 +85,11 @@ button:focus {
 	display: inline-block;
 }
 .single__navigation i {
-	color: #fff;
+	color: #DADADA;
 	transition: 0.3s ease-in;
 }
+
 .single__navigation:hover i {
-	color: #000;
+	color: #fff;
+	transition: all .3s ease-in;
 }
